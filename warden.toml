@@ -1,0 +1,14 @@
+# DBWarden Configuration
+# See documentation: https://emiliano-gandini-outeda.me/DBWarden/
+
+# Database connection URL (required)
+sqlalchemy_url = "sqlite:///./development.db"
+
+# Enable async mode (true/false)
+async = false
+
+# PostgreSQL schema (optional)
+# postgres_schema = "public"
+
+# Paths to SQLAlchemy models for auto-migration (optional)
+# model_paths = ["app/models/"]
